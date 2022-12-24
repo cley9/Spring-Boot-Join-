@@ -1,0 +1,16 @@
+insert into article(id,description,price) values(1,'article 1 description',10.1);
+insert into article(id,description,price) values(2,'article 2 description',12.3);
+insert into customer(id,name,address,active) values(1,'customer 1 name','customer 1 address',1);
+insert into customer(id,name,address,active) values(2,'customer 2 name','customer 2 address',1);
+insert into customer(id,name,address,active) values(3,'customer 3 name (Inactive)','customer 3 address',3);
+insert into invoiceHeader(id,fiscalYear,numberInvoice,customerId) values(1,2019,1,1);
+insert into invoiceHeader(id,fiscalYear,numberInvoice,customerId) values(2,2019,2,2);
+insert into invoiceHeader(id,fiscalYear,numberInvoice,customerId) values(3,2019,3,2);
+insert into invoiceHeader(id,fiscalYear,numberInvoice,customerId) values(4,2019,4,3);
+insert into invoiceDetails(id,fiscalYear,numberInvoice,linea_details,numberArticles,articleId) values(1,2019,1,1,5,1);
+insert into invoiceDetails(id,fiscalYear,numberInvoice,linea_details,numberArticles,articleId) values(2,2019,1,2,3,2);
+insert into invoiceDetails(id,fiscalYear,numberInvoice,linea_details,numberArticles,articleId) values(3,2019,2,1,10,2);
+insert into invoiceDetails(id,fiscalYear,numberInvoice,linea_details,numberArticles,articleId) values(4,2019,2,2,5,1);
+insert into invoiceDetails(id,fiscalYear,numberInvoice,linea_details,numberArticles,articleId) values(5,2019,2,3,6,2);
+insert into invoiceDetails(id,fiscalYear,numberInvoice,linea_details,numberArticles,articleId) values(6,2019,3,1,4,2);
+insert into invoiceDetails(id,fiscalYear,numberInvoice,linea_details,numberArticles,articleId) values(7,2019,4,1,1,1);
